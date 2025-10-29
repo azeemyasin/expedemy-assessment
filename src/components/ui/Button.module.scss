@@ -1,0 +1,48 @@
+
+.base {
+  @apply flex items-center justify-center transition-all duration-300 ease-in-out;
+}
+
+/* Primary (Enroll) */
+.primary {
+  @apply bg-trueGray-800 text-white py-4 px-[151.5px]  gap-2 hover:bg-trueGray-900 active:bg-trueGray-800 rounded-large text-lg font-semibold;
+}
+.primary:disabled {
+  @apply bg-trueGray-800 text-white/70 cursor-not-allowed;
+}
+
+/* Secondary (Wishlist) */
+.secondary {
+  @apply bg-white border border-trueGray-800 border-opacity-[6%] text-trueGray-800 rounded-large text-lg font-normal py-4 px-24 gap-2 hover:font-medium hover:border-opacity-[12%] active:font-medium;
+}
+.secondary:disabled {
+  @apply bg-trueGray-50 cursor-not-allowed;
+}
+
+/* Google & Microsoft */
+.google,
+.microsoft {
+  @apply bg-trueGray-50 border border-trueGray-900 border-opacity-[6%] text-trueGray-900 font-normal py-4 px-6  gap-3 hover:bg-trueGray-50 hover:font-semibold hover:border-opacity-[15%] active:bg-gray-100 rounded-small active:border-opacity-[15%] active:font-normal;
+}
+
+/* Instructor (Gradient) */
+.instructor {
+  @apply py-[13px] px-[17px] text-trueGray-800 font-semibold text-lg rounded-small bg-[linear-gradient(90deg,#A1D4F2_0%,#E5F87A_100%)] bg-opacity-[60%] hover:bg-opacity-[80%] active:bg-opacity-[100%];
+}
+
+.instructor:disabled {
+  @apply bg-blueGray-100 text-trueGray-800 cursor-not-allowed;
+}
+/* Cart */
+.cart {
+  @apply bg-white border border-trueGray-800 border-opacity-[6%] text-trueGray-800 text-lg font-normal py-[11px] px-[13px] rounded-large hover:border-opacity-[12%] hover:font-medium active:bg-blueGray-100 active:border-opacity-[12%] active:font-medium;
+}
+.cart:disabled {
+  @apply bg-trueGray-50 text-trueGray-800 cursor-not-allowed;
+}
+
+
+/* Icon-only (Arrow) */
+.icon {
+  @apply bg-white border border-trueGray-800 border-opacity-[10%] rounded-3xl py-[22px] px-[30px] hover:bg-trueGray-50;
+}
