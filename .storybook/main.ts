@@ -21,7 +21,6 @@ const config: StorybookConfig = {
       "@": resolve(__dirname, "../src"),
     };
 
-    // ✅ Add this to define `process.env` for browser
     config.define = {
       ...(config.define || {}),
       "process.env": {},

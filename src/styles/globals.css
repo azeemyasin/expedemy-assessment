@@ -1,9 +1,29 @@
-/* @import './variables.scss'; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* ===============================
+   Global Theme Variables
+   =============================== */
 
-body {
-  font-family: 'Inter', sans-serif;
+:root {
+  /* ---- Light Mode ---- */
+  --true-gray-50: #f8fafc;
+  --true-gray-800: #262626;
+  --true-gradient-text-800: #262626;
+  --true-gray-900: #1d1c1c;
+  --blue-gray-100: #f1f5f9;
+  --background: #6d6d6d;
+  --brand-white: #ffffff;
+}
+
+/* ---- Dark Mode ---- */
+.dark {
+  --true-gray-50: #0d0d0d;
+  --true-gray-800: #f8fafc;
+  --true-gradient-text-800: #262626;
+  --true-gray-900: #ffffff;
+  --blue-gray-100: #1a1a1a;
+  --background: #000000;
+  --brand-white: #262626;
 }

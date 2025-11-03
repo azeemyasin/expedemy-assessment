@@ -53,7 +53,7 @@ export function Button({
       {variant === 'cart' && cartBadge != null && (
         <span
           className="ml-[2px] flex h-[21px] w-[21px] items-center justify-center
-                     rounded-full bg-trueGray-800 text-xs font-medium text-white"
+                     rounded-full bg-trueGray-800 text-xs font-medium text-brandWhite"
           aria-hidden="true"
         >
           {cartBadge}
